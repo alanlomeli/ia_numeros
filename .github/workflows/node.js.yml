@@ -6,7 +6,7 @@ on:
       ["*"] 
 jobs:
   set-default-scheme:
-    name: Set Default Scheme
+    name: Funcionalidad codigo
     runs-on: ubuntu-latest
     
     steps:
@@ -14,7 +14,7 @@ jobs:
       - name: Step 1
         shell: bash
         run: |
-          exit 1
+          sudo npm install python 9.8
       
   
 
